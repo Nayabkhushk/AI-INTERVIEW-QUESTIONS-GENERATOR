@@ -5,7 +5,7 @@ from groq import Groq
 # Initialize Groq client 
 GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
-client = Groq(api_key=API_KEY)
+client = Groq(api_key=GROQ_API_KEY)
 
 st.set_page_config(page_title="AI Interview Question Generator", layout="centered")
 st.title("🎯 AI Interview Question Generator ")
